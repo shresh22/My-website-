@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Experience & Exploration Blog</title>
+  <style>
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    body {
+      background: #f7f9fc; color: #333;
+    }
+    header {
+      background-color: #4a90e2;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #333;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      display: block;
+    }
+    nav a:hover {
+      background-color: #575757;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      margin-bottom: 20px;
+      color: #4a90e2;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My Life, Experiences & Explorations</h1>
+    <p>A journey through moments and memories</p>
+  </header>
+
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#experiences">Experiences</a>
+    <a href="#explorations">Explorations</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+      <p>Hi! I'm [Your Name], a curious learner and explorer studying AI/ML at NIAT. This website is my space to share the amazing things I see, feel, and experience along the way.</p>
+    </div>
+  </section>
+
+  <section id="experiences">
+    <h2>My Experiences</h2>
+    <div class="card">
+      <h3>📚 College Journey</h3>
+      <p>Learning AI/ML at NIAT has been a mix of challenges and discoveries. From understanding neural networks to working on fun projects, every step is worth it.</p>
+    </div>
+    <div class="card">
+      <h3>💻 First Hackathon</h3>
+      <p>Participated in a 24-hour coding event where we built a voice-controlled chatbot. I learned the power of teamwork and sleep deprivation!</p>
+    </div>
+  </section>
+
+  <section id="explorations">
+    <h2>Explorations</h2>
+    <div class="card">
+      <h3>🏞️ Trip to Rishikesh</h3>
+      <p>I explored the spiritual and adventurous side of Rishikesh — river rafting, peaceful Ganga aarti, and lots of chai.</p>
+    </div>
+    <div class="card">
+      <h3>🌇 Street Photography in Delhi</h3>
+      <p>Captured the life and chaos of Chandni Chowk. Every photo told a story.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <div class="card">
+      <p>Have a story to share or want to connect? Reach out to me:</p>
+      <ul>
+        <li>Email: yourname@email.com</li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">yourprofile</a></li>
+        <li>GitHub: <a href="https://github.com/yourusername" target="_blank">yourusername</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <p>Made with ❤️ by [Your Name] | © 2025</p>
+  </footer>
+
+</body>
+</html>
