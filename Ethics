@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ethical AI Initiative</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav>
+    <div class="logo">Ethical AI</div>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#problems">Problems</a></li>
+      <li><a href="#solutions">Solutions</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Preventing Unethical Use of AI</h1>
+      <p>Empowering the world to use AI responsibly, transparently, and ethically.</p>
+      <a href="#about" class="btn">Learn More</a>
+    </div>
+  </header>
+
+  <section id="about" class="section">
+    <h2>Why Ethical AI Matters</h2>
+    <p>AI technologies have immense potential—but with great power comes great responsibility. Ethical AI ensures fairness, transparency, and accountability in how we design and use AI tools.</p>
+  </section>
+
+  <section id="problems" class="section dark">
+    <h2>Unethical Uses of AI</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Deepfakes & Misinformation</h3>
+        <p>AI-generated media can manipulate truth and deceive the public.</p>
+      </div>
+      <div class="card">
+        <h3>AI Bias</h3>
+        <p>Unchecked algorithms can reinforce racial, gender, or socioeconomic discrimination.</p>
+      </div>
+      <div class="card">
+        <h3>Privacy Violations</h3>
+        <p>AI-powered surveillance may infringe on human rights and data privacy.</p>
+      </div>
+      <div class="card">
+        <h3>Automated Plagiarism</h3>
+        <p>Generative AI can be misused for mass production of fake, copied content.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="solutions" class="section">
+    <h2>How We Can Prevent It</h2>
+    <ul class="solution-list">
+      <li><strong>Transparent AI:</strong> Promote openness in how AI models work.</li>
+      <li><strong>Ethical Guidelines:</strong> Develop global frameworks for AI development.</li>
+      <li><strong>Human Oversight:</strong> Ensure AI decisions are reviewed by people.</li>
+      <li><strong>Public Awareness:</strong> Educate users and developers on responsible use.</li>
+      <li><strong>Fair Regulation:</strong> Advocate for legal and policy frameworks to limit misuse.</li>
+    </ul>
+  </section>
+
+  <section class="cta" id="contact">
+    <h2>Join the Ethical AI Movement</h2>
+    <p>Want to help shape the future of ethical technology? Join us today and make a difference.</p>
+    <a href="mailto:ethicalai@example.com" class="btn">Contact Us</a>
+  </section>
+
+  <footer>
+    <p>© 2025 Ethical AI Initiative</p>
+    <div class="socials">
+      <a href="#">Twitter</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">GitHub</a>
+    </div>
+  </footer>
+</body>
+</html>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+nav {
+  background-color: #1a1a2e;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+nav .logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+nav ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+              url('https://images.unsplash.com/photo-1611262588024-5a0d5b38bc3f') center/cover no-repeat;
+  color: white;
+  padding: 6rem 2rem;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  padding: 0.8rem 1.5rem;
+  background-color: #3f72af;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #30557a;
+}
+
+.section {
+  padding: 4rem 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.section p,
+.section ul {
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+}
+
+.dark {
+  background-color: #e3e9f3;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  flex: 1 1 250px;
+  max-width: 300px;
+}
+
+.solution-list {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+}
+
+.solution-list li {
+  padding: 0.8rem 0;
+  font-size: 1.1rem;
+}
+
+.cta {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+footer {
+  background-color: #111;
+  color: #aaa;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+footer .socials a {
+  margin: 0 0.5rem;
+  color: #aaa;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+footer .socials a:hover {
+  color: white;
+}
